@@ -69,7 +69,10 @@ height: 40px;
     text-align: justify;
 }
 .blog-title{
+    background-color: burlywood;
     color: red;
+    padding: 5px 5px;
+    border: 2px solid red;
 }
 .author{
     font-family: 'Courier New', Courier, monospace;
