@@ -1,0 +1,88 @@
+.container{
+    width: 80%;
+    height: 800px;
+    background-color: pink;
+    margin: 60px auto;
+    
+}
+
+/*---Main Menu---*/
+
+.main-menu{
+margin: 10px 20px 50px;
+height: 40px;
+}
+.main-menu ul{
+    float: right;
+    margin-right: 20px;
+    font: bold;
+}
+.main-menu ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 5px;
+}
+.main-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+.main-menu ul li a:hover{
+    color: white;
+    transition: all 0.2s;
+}
+
+/*---Body Section---*/
+
+.body{
+    margin: 0 40px;
+    height: 410px;
+}
+.body-title{
+    color: rgb(55, 104, 150);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px 0px 70px;
+
+}
+.left-side{
+    width: 42%;
+    height: auto;
+    background-color: turquoise;
+    float: left;
+    border: 10px dotted yellow;
+    padding: 2px 20px;
+}
+.left-side p{
+    text-align: justify;
+}
+.right-side{
+    width: 42%;
+    height: auto;
+    background-color: turquoise;
+    float: left;
+    margin-left: 67px;
+    border: 10px dashed rgb(59, 59, 52);
+    padding: 2px 20px;
+}
+.right-side p{
+    text-align: justify;
+}
+.blog-title{
+    color: red;
+}
+.author{
+    font-family: 'Courier New', Courier, monospace;
+}
+.author span{
+    color: red;
+}
+.footer{
+    text-align: center;
+    background-color: yellowgreen;
+    height: 45px;
+    margin: 0 40px;
+}
+.footer p{
+    padding: 13px 0px 0px;
+}
